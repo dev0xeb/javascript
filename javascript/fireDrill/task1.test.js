@@ -6,6 +6,8 @@ const {firstDuplicate} = require("./task5.js")
 const {reverseArray} = require("./task6.js")
 const {factorial} = require("./task7.js")
 const {isPalindrome} = require("./task8.js")
+const {sumMultiplesThreeandFive} = require("./task9.js")
+const {checkLeapYear} = require("./task10.js")
 
 let arr = [1, 2, 3, 4, 5];
 
@@ -53,3 +55,16 @@ test("word is palindrome", ()=>{
 	let result = isPalindrome(word);
 	expect(result).toBe(true)
 })
+
+test("Sum of Mutiples of 3 and 5", ()=>{
+	let number = 10;
+	let result = sumMultiplesThreeandFive(number);
+	expect(result).toBe(23)
+})
+
+test("check i year is a leap year", ()=>{
+	let year = 2024;
+	let result = checkLeapYear(year);
+	expect(result).toBe(true)
+})
+
