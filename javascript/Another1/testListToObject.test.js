@@ -3,6 +3,7 @@ const {filterScores} = require("./testScores")
 const {add5ToScores} = require("./testScores")
 const {squareOfNumbers} = require("./testScores")
 const {expenseTracker} = require("./testScores")
+const {classTiming} = require("./testScores")
 
 test("Loppting through List and turn to object", ()=>{
     let arr = [1,1,2,3,2]
@@ -47,3 +48,8 @@ test("add up all expenses in the object", ()=>{
     expect(result).toEqual(380)
 })
 
+test("add up all expenses in the object", ()=>{
+    let classSchedule = ["9:00 AM", "11:00 AM", "1:00 PM", "3:00 PM", "5:00 PM"]
+    let result = classTiming(classSchedule)
+    expect(result).toEqual([ '1:00 PM', '3:00 PM', '5:00 PM' ])
+})
