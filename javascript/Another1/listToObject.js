@@ -11,6 +11,5 @@ function listToObject(numList){
     }
     return numObject
 }
-consol
 // console.log(listToObject(numList))
 module.exports = {listToObject};
