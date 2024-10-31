@@ -23,44 +23,46 @@ ul li{
 }
 
 .navBarWrapper{
-    background-color: rgb(172, 235, 191);
+    background-color: lightskyblue;
 }
 
 ul{
     display: flex;
     width: 300px;
     justify-content: space-between;
+    font-size: 22px;
 }
 
 #search{
     width: 400px;
     height: 40px;
-    margin: 10px 0;
-    padding: 20px;
-    font-size: 20px;
+    margin: auto;   
 }
 
 .search{
     width: 400px;
     margin: auto;
 }
-.images{
-    width: 90%;
-    margin: auto;
+
+.movie{
+    width: 400px;
+    padding: 2em;
 }
-.images img{
-    width: 450px;
+
+.movie img{
+    width: 400px;
     height: 500px;
 }
 
-.titleRating{
+/* .titleRating{
     display: flex;
     justify-content: center;
-}
+} */
 
-.movieMainContanier{
-    display: flex;
+.movieMainContainer{
+    display: grid;
     justify-content: space-between;
     width: 92vw;
     margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
