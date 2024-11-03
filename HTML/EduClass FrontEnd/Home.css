@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    height: 70px;
+}
+/* .active-link{
+    color: #063852;
+    font-weight: 500;
+} */
+
+ul li{
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 13%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+.logoText{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 21.92px;
+    line-height: 32.88px;
+    letter-spacing: -1%;
+    padding-left: 3% ;
+    color: #063852;
+}
+
+.heroWrapper{
+    background-image: url(./Images/Hero\ Background.png );
+    height: 620px;
+    /* width: 1470px; */
+}
+
+button{
+    width: 134px;
+    height: 48px;
+    border-radius: 24px;
+    background: #2374EE;
+    border: none;
+}
+
+.contactBtn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #EBF2FF;
+    line-height: 19.6px;
+    font-size: 14px;
+}
+
+.heroContent{
+    display: flex;
+    padding-left: 80px;
+    margin: auto;
+    justify-content: center;
+}
+.heroIntro{
+    display: flexbox;
+    width: 50%;
+}
+.heroImg{
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    padding-left: 17%;
+    position: relative;
+}
+/* .gradient{
+    position: absolute;
+} */
+
+.heroHeader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: -1%;
+    width: 400px;
+    height: 210px;
+    margin-top: 100px;
+    color: #063852;
+}
+
+.heroText{
+    width: 441px;
+    height: 78px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26.1px;
+    letter-spacing: -0.5%;
+    color: #9EA3AE;
+    margin-top: 15px;
+}
+
+.heroBtn{
+    margin-top: 15px;
+    display: flex;
+}
+
+.freeTrial{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #EBF2FF;
+    line-height: 24px;
+    font-size: 16px;
+    width: 180px;
+    margin-right: 30px;
+    border-radius: 37px;
+    height: 58px;
+    cursor: pointer;
+}
+
+.demo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #063852;
+    background-color:#EBF2FF;
+    width: 131px;
+    height: 24px;
+    cursor: pointer;
+}
+.demoBtn{
+   display: flex;
+   margin-top: 15px;
+}
+
+.empower{
+    display: flex;
+    padding-top: 11%;
+    padding-left: 5%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.empowerContent{
+    display: flexbox;
+    width: 550px;
+    height: 388px;
+    align-items: center;
+    margin-right: 120px;
+
+}
+
+.empowerHeader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #063852;
+}
+
+.empowerText{
+    padding-top: 15px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 26.1px;
+    color: #9EA3AE;
+}
+
+.empowerIcons{
+    padding-top: 20px;
+    display: flex;
+}
+.empowerIcons img{
+    width: 48px;
+    height: 48.01px;
+}
+
+.iconImg{
+    padding-right: 10px;
+}
+
+.empowerInfo{
+    display: flex;
+    padding-right: 10px;
+}
+
+.iconText{
+height: 40px;
+width: 86px;
+margin-top: -5px;
+}
+
+.iconBold{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    color: #2374EE;
+}
+
+.iconNom{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    margin-top: -10px;
+    color: #063852;
+}
+
+.LearnBtn{
+    width: 150px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.emptyBox{
+    display: flexbox;
+    width: 570px;
+    height: 413px;
+    border-radius: 16px;
+    background-color: #9EA3AE ;
+    box-shadow: 3px 3px 3px 3px #D3D5DA;
+}
+
+.featuresContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.featuresHeader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #063852;
+}
+
+.featuresText{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #6C727F;
+    width: 656px;
+    height: 52px;
+    text-align: center;
+}
+
+.features1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5%;
+    gap: 300px;
+}
+
+.features1Content{
+    width: 438px;
+    height: 324px;
+}
+
+.features1Topic{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB700;
+    padding-top: 35px;
+}
+
+.features1Header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #063852;
+    padding-top: 8px;
+}
+
+.features1Text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C727F;
+    padding-top: 13px;
+}
+
+.features1Link{
+    padding-top: 15px;
+    margin-left: -12px;
+    display: flex;
+}
+
+.features1Link button{
+    background-color: white;
+    border: none;
+    width: 278px;
+    height: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2374EE;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.features1Arrow{
+   padding-top: 3px;
+   margin-left: -8px;
+   cursor: pointer;
+}
+
+.features2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5%;
+    gap: 300px;
+    padding-left: 4%;
+}
+
+.features2Content{
+    width: 438px;
+    height: 324px;
+}
+
+.features2Topic{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB700;
+    padding-top: 40px;
+}
+
+.features2Header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #063852;
+    padding-top: 8px;
+}
+
+.features2Text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C727F;
+    padding-top: 13px;
+}
+
+.features2Link{
+    padding-top: 15px;
+    margin-left: -12px;
+    display: flex;
+}
+
+.features2Link button{
+    background-color: white;
+    border: none;
+    width: 278px;
+    height: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2374EE;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.features2Arrow{
+    padding-top: 3px;
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+.features3Link{
+    display: flex;
+    padding-left: 7px;
+    padding-top: 15px;
+}
+
+.features3Link button{
+    background-color: white;
+    border: none;
+    width: 278px;
+    height: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2374EE;
+    margin-left: -20px;
+    cursor: pointer;
+}
+.features3Arrow{
+    padding-top: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
