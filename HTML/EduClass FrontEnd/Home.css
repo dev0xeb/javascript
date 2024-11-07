@@ -436,3 +436,362 @@ margin-top: -5px;
     margin-left: 5px;
     cursor: pointer;
 }
+
+.testimony{
+    background-image: url(./Images/Background.png);
+    height: 492px;
+    margin-top: 130PX;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testimonyHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: white;
+    padding-top: 55px;
+}
+
+.testimonyText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.6px;
+    color:#D3D5DA;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.testimonyBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 309px;
+    height: 304px;
+    background-color: #FFFFFF;
+    gap: 150px;
+    border-radius: 16px;
+    margin: 70px;
+    margin-top: 70px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    display: flexbox;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 115px;
+}
+
+.box1Header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #063852;
+}
+
+.box1SubHead{
+    padding-top: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #9EA3AE;
+}
+
+.box1Text{
+    padding-top: 7px;
+    /* width: 245px; */
+    height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.6px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:#6C727F;
+    text-align: center;
+}
+
+.btnLeft{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -65px;
+    cursor: pointer;
+}
+
+.rightBtn{
+    position: absolute;
+    padding-left: 235px;
+    padding-top: 70px;
+    cursor: pointer;
+}
+
+.centerBtn{
+    width: 180px;
+    height: 58px;
+    border-radius: 37px;
+    background-color: #2374EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.viewMoreBtn{
+    color: #EBF2FF;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, #6b90c7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.planContainer{
+    padding-top: 17%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.planHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #063852;
+}
+
+.planText{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: center;
+    color: #6C727F;
+}
+
+.planListContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    margin-top: 30px;
+}
+
+.basicPlan{
+    width: 254px;
+    height: 547px;
+}
+.topsec1{
+    display: flex;
+    gap: 20px;
+}
+
+.Starter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26.1px;
+    color: #6f6c90;
+}
+
+.basicType{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #063852;
+}
+
+.basicText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.1px;
+    color: #6C727F;
+    margin-top: 20px;
+}
+
+.basicPrice{
+    display: flex;
+    padding-top: 3%;
+}
+
+.priceFigure{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #063852;
+}
+
+.priceCtn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #9EA3AE;
+}
+
+.basicIncluded{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18PX;
+    line-height: 26.1px;
+    color: #063852;
+    padding-top: 18px;
+}
+
+.basicInfo{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    display: flex;
+    color: #063852;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.basicBtn{
+    color: #EBF2FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 35px;
+    width: 254px;
+    height: 64px;
+    border-radius: 36px;
+}
+
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+    
+}
+
+
+.ExtendedPlan{
+    width: 382px;
+    height: 638px;
+    background-color:#2374EE;
+    padding: 35px;
+    border-radius: 25px;
+    margin-right: 80px;
+    margin-top: -15px;
+}
+
+.Extendedtopsec1{
+    display: flex;
+    gap: 20px;
+}
+
+.ExtendedStarter{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26.1px;
+        color: white;
+}
+
+.ExtendedType{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+}
+
+.ExtendedText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.1px;
+    color: white;
+    margin-top: 20px;
+}
+
+.ExtendedpriceFigure{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70.4px;
+    color: white;
+}
+
+.ExtendedpriceCtn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+}
+
+.ExtendedIncluded{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18PX;
+    line-height: 26.1px;
+    color: white;
+    padding-top: 18px;
+}
+
+.ExtendedInfo{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    display: flex;
+    color: white;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.ExtendedBtn{
+    color: #2374EE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 35px;
+    width: 308px;
+    height: 64px;
+    border-radius: 36px;
+    background-color: white;
+}
